@@ -51,7 +51,6 @@ def get_mndfields(args):
             ]
             args.outfile.write("\t".join(outl)+"\n")
         except Exception as e:
-            print(parts)
             raise e
 
 if __name__ == "__main__":
